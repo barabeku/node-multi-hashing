@@ -26,5 +26,12 @@
     "shavite",
     "fugue",
     "sha1"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest --ci"
+  }
 }
